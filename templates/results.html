@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Linear Regression Results</title>
+</head>
+<body>
+    <h1>Linear Regression Results</h1>
+    <table>
+         {%for predicted_value in predicted_data%}
+        <thead>
+            <tr>
+                <th>{{predicted_value}}</th>
+            </tr>
+        </thead>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
